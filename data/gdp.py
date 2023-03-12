@@ -56,8 +56,8 @@ aoml_https_url = "https://www.aoml.noaa.gov/ftp/pub/phod/lumpkin/hourly/v2.00/ne
 file_pattern = "drifter_{id}.nc"
 
 # create subdirectory
-folder = "../data/raw/gdp-v2.00/"
-os.makedirs(folder, exist_ok=exists(folder))  # create raw data folder
+folder = "../data/original/gdp-v2.00/"
+os.makedirs(folder, exist_ok=exists(folder))  # create original data folder
 
 # directory files
 dirfl_names = [

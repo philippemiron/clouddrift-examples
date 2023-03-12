@@ -12,9 +12,9 @@ from datetime import datetime
 griidc_url = (
     "https://data.gulfresearchinitiative.org/pelagos-symfony/api/file/download/169841"
 )
-folder = "../data/raw/glad/"
+folder = "../data/original/glad/"
 file = "GLAD_15min_filtered.dat"
-os.makedirs(folder, exist_ok=exists(folder))  # create raw data folder
+os.makedirs(folder, exist_ok=exists(folder))  # create original data folder
 
 # download and parse the file
 if not isfile(join(folder, file)):

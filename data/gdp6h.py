@@ -54,8 +54,8 @@ version = "July 2022"
 aoml_https_url = "https://www.aoml.noaa.gov/ftp/pub/phod/lumpkin/netcdf/"
 file_pattern = "drifter_{id}.nc"
 
-# create raw data folder and subdirectories
-folder = "../data/raw/gdp-6hourly"
+# create original data folder and subdirectories
+folder = "../data/original/gdp-6hourly"
 aoml_directories = [
     "buoydata_1_5000",
     "buoydata_5001_10000",
